@@ -6,6 +6,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click",function(){
     var click = this.innerHTML;
     handleClick(click);
 });
+}
 document.addEventListener("keydown",function(event)
 {
     
@@ -57,5 +58,5 @@ function handleClick(but)
     
     
 }
-}
+
 
